@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>My own Instagram</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class="container">
+	<h1> My own Instagram </h1>
+<!-- SECTION FOR INPUT AREA -->
+	<section class="input-area">
+		<div id="input-form">
+
+			<input id="image-url" type="url" name="url" placeholder="Url" autofocus><br>
+			<input id="image-alt" type="text" name="alt-text" placeholder="Alt-text"><br>
+			<input id="status-text" type="text" name="alt-text" placeholder="Statusuppdatering"><br>
+
+			<button type="submit" id="update-instagram" onclick="instagram.addNewPost()" value="dela">Dela</button>
+		</div>
+
+	</section>
+
+<!-- SECTION FOR IMAGE AND STATUS POSTS DYNAMIC CONTENT -->
+	<section id="content-area"> </section>
+
+</div>
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+</html>
